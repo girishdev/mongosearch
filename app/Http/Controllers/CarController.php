@@ -178,4 +178,9 @@ class CarController extends Controller
         return $result = DB::collection('car')->where('carcompany', $name)->update(['price' => $price]);
 
     }
+
+    public function funUbuntu(Type $var = null)
+    {
+        # code...
+    }
 }
