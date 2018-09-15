@@ -183,4 +183,9 @@ class CarController extends Controller
     {
         # code...
     }
+
+    public function funcUn2(Type $var = null)
+    {
+        # code...
+    }
 }
